@@ -1,3 +1,62 @@
+.hero-section {
+  width: 100%;
+  height: 100%;
+  background: url("../../../img/banner-bg.png") center;
+  min-height: 250px;
+  background-size: cover;
+}
+.hero-section .banner-package-image {
+  object-fit: cover;
+}
+.hero-section .banner-package-image img {
+  max-height: 470px;
+}
+.hero-section .banner-package-details {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  padding: 40px;
+  min-width: 350px;
+  max-width: 445px;
+  border-radius: 5px;
+  height: 100%;
+  -webkit-backdrop-filter: blur(27.5px);
+  backdrop-filter: blur(27.5px);
+  border: 1px solid rgba(255, 255, 255, 0.44);
+  background-image: linear-gradient(112deg, rgba(34, 34, 34, 0.5) 0%, rgba(34, 34, 34, 0.5) 100%);
+  z-index: 1;
+}
 
+.activity .activity-card-wrapper {
+  width: 100%;
+  min-height: 200px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 5px;
+}
+.activity .activity-card-wrapper img {
+  border-radius: 5px;
+  transition: all 0.5s ease-out;
+  min-height: 175px;
+}
+.activity .activity-card-wrapper:hover img {
+  transform: scale(1.1);
+}
+.activity .activity-card-content {
+  position: absolute;
+  bottom: 20px;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.activity .activity-card-content .activity-card-heading {
+  padding: 12px 20px;
+  border-radius: 5px;
+  background: #fff;
+}
 
 /*# sourceMappingURL=homepage.css.map */
